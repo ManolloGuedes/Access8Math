@@ -655,4 +655,4 @@ def toggleAbstractMode():
 	if A8M_PM.abstractModeToggle():
 		speech.speak([_("enabling abstract reading mode")])
 	else:
-		speech.speak([_("Disabling abstract reading mode")])
+		speech.speak([_("disabling abstract reading mode")])
